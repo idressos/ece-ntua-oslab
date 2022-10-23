@@ -18,7 +18,7 @@ if len(tempfiles) == 1:
 		fd = os.open(file, os.O_WRONLY)
 
 		os.lseek(fd, 111, os.SEEK_SET)
-		os.write(fd, str.encode(argv[1]))
+		os.write(fd, str.encode(sys.argv[1]))
 		os.close(fd)
 
 		print("Success!")
