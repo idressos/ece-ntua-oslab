@@ -26,7 +26,7 @@ We are given the codebase of a Linux device driver for a wireless sensor network
 
 The exercise is performed entirely inside a QEMU Debian virtual machine. The driver is loaded as a module onto the system.
 
-Sensor sets can't possibly be provided to every participant. Instead, a TCP/IP server has been set up at lunix.cslab.ece.ntua.grn to constantly forward sensor measurements to connected clients.  
+Sensor sets can't possibly be provided to every participant. Instead, a TCP/IP server has been set up at lunix.cslab.ece.ntua.gr to constantly forward sensor measurements to connected clients.  
 All participants have to do is redirect a virtual serial port to the server using QEMU command line arguments.  
 Two sensor sets are available at ports 49152 and 49153, respectively.
 
