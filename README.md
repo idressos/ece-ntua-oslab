@@ -25,17 +25,22 @@ Report: Available in [English](./exercise_1/report_en.pdf), [Greek](./exercise_1
 We are given the codebase of a Linux device driver for a wireless sensor network, the station/receiver of which is connected to our computer through TTY (Serial) over USB. We must add code to the kernel program to achieve safe and proper driver functionality.
 
 The exercise is performed entirely inside a QEMU Debian virtual machine. The driver is loaded as a module onto the system.
-Sensor sets can't possibly be provided to every participant. Instead, a TCP/IP server has been set up at lunix.cslab.ece.ntua.grn to constantly forward sensor measurements to connected clients. All participants have to do is redirect a virtual serial port to the server using QEMU command line arguments. Two sensor sets are available at ports 49152 and 49153, respectively.
+
+
+Sensor sets can't possibly be provided to every participant. Instead, a TCP/IP server has been set up at lunix.cslab.ece.ntua.grn to constantly forward sensor measurements to connected clients.
+All participants have to do is redirect a virtual serial port to the server using QEMU command line arguments. Two sensor sets are available at ports 49152 and 49153, respectively.
 
 Only the driver code is included in this repository. For the virtual machine files, see below.
 
 ### Downloads
 Root file system for QEMU virtual machine: [cslab_rootfs_20221102-0.raw.gz](https://newsite.cslab.ece.ntua.gr/assets/oslab/cslab_rootfs_20221102-0.raw.gz)
+
 VM management files: [utopia-20221103-0.tgz](https://helios.ntua.gr/mod/resource/view.php?id=10239)
 
 *Links are not guaranteed to work in the future as they are managed by the lab team.*
 
 Report: Available in [English](./exercise_2/report_en.pdf), [Greek](./exercise_2/report_el.pdf)
+
 
 
 School of Electrical and Computer Engineering, National Technical University of Athens  
